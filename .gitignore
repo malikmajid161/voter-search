@@ -1,0 +1,25 @@
+# Dependencies & Builds
+node_modules/
+dist/
+build/
+.env
+
+# OS / IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Large binaries / raw PDF / temporary debug crops
+*.pdf
+*.mp4
+*.zip
+*.png
+*.jpg
+*.jpeg
+
+# Allow essential assets in voter-app/public/
+!voter-app/public/
+!voter-app/public/**/*.png
+!voter-app/public/**/*.jpg
+!voter-app/public/**/*.svg
